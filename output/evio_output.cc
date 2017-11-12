@@ -59,7 +59,8 @@ void evio_output :: recordSimConditions(outputContainer* output, map<string, str
 // each variable is a domnode
 void evio_output :: writeHeader(outputContainer* output, map<string, double> data, gBank bank)
 {
-	event = new evioDOMTree(1, 0);
+//	event = new evioDOMTree(1, 0);
+	event = new evioDOMTree(2001, 0); // This is for the testing purpose, to quickly check, if Cole can read banks
 
 	evioDOMNodeP headerBank = evioDOMNode::createEvioDOMNode(HEADER_BANK_TAG, 0);
 

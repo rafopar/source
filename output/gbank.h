@@ -24,10 +24,12 @@ using namespace std;
 #define HEADER_BANK_TAG 10
 
 // header bank
-#define USER_HEADER_BANK_TAG 11
+//#define USER_HEADER_BANK_TAG 11
+#define USER_HEADER_BANK_TAG 2011
 
 // RF bank
-#define RF_BANK_TAG 30
+//#define RF_BANK_TAG 30
+#define RF_BANK_TAG 2030 // This is for the testing purpose, to quickly check, if Cole can read banks
 
 
 // simulation conditions NUM is 0 for the mother bank, 1 for the data bank
